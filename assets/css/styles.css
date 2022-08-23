@@ -391,14 +391,14 @@ img {
   row-gap: 0;
 }
 
-.skills_header{
+.skills__header{
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
 }
 
-.skills_icon,
+.skills__icon,
 .skills__arrow{
   font-size: 2rem;
   color: var(--first-color);
@@ -422,6 +422,11 @@ img {
   transition: .4s;
 }
 
+.skills__list{
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
 .skills__titles{
   display: flex;
   justify-content: space-between;
@@ -433,9 +438,134 @@ img {
   font-weight: var(--font-medium);
 }
 
+.skills__bar,
+.skills__percentage{
+  height: 5px;
+  border-radius: .25rem;
+}
+
+.skills__bar{
+  background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skills_html{
+  width: 90%;
+}
+.skills_css{
+  width: 80%;
+}
+.skills_js{
+  width: 60%;
+}
+.skills_react{
+  width: 55%;
+}
+
+.skills_php{
+  width: 75%;
+}
+.skills_node{
+  width: 50%;
+}
+.skills_firebase{
+  width: 55%;
+}
+.skills_python{
+  width: 50%;
+}
+
+.skills_adobe{
+  width: 85%;
+}
+.skills_figma{
+  width: 70%;
+}
+
+.skills__close .skills__list{
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list{
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+  transform: rotate(-180deg);
+}
 /*==================== QUALIFICATION ====================*/
+.qualification__tabs{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
 
+.qualification__button{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
 
+.qualification__button:hover{
+  color: var(--first-color);
+}
+
+.qualification__icon{
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qualification__data{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification__title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualification__subtitle{
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.qualification__rounder{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.qualification__line{
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
+
+.qualification [data-content]{
+  display: none;
+}
+
+.qualification__active[data-content]{
+  display: block;
+}
 /*==================== SERVICES ====================*/
 
 
