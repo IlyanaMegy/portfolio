@@ -12,7 +12,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: #f7f7f9;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -149,15 +149,18 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: #8a6d84;
+  /* background-color: var(--title-color); */
   color: var(--container-color);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #7c6076;
+  /* background-color: var(--title-color-dark); */
 }
 
 .button__icon {
