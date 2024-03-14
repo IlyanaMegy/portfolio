@@ -15,6 +15,16 @@
   height: 45px;
 }
 
+.home__school-link
+{
+  color: #957699;
+}
+
+.home__school-link:hover
+{
+  color: #b78aba;
+}
+
 .home__social {
   display: grid;
   grid-template-columns: max-content;
@@ -27,7 +37,7 @@
 
 .home__img {
   background: url(../../assets/user-circle.svg);
-  background-color: #543f51;
+  background-color: #7d65a6;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

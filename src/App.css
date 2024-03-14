@@ -149,7 +149,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: #8a6d84;
+  background-color: #b6a4d7;
   /* background-color: var(--title-color); */
   color: var(--container-color);
   padding: 1.25rem 2rem;
@@ -159,7 +159,7 @@ img {
 }
 
 .button:hover {
-  background-color: #7c6076;
+  background-color: #a08bc7;
   /* background-color: var(--title-color-dark); */
 }
 

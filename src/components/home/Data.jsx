@@ -18,10 +18,10 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Etudiante en informatique</h3>
+      <h3 className="home__subtitle">IT Student at <a href="https://42.fr/" className="home__school-link" color="#957699" >42 school</a></h3>
       <p className="home__description">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla...</p>
       <a href="#contact" className="button button--flex">
-        Dire Bonjour
+        Say Hello !
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"
