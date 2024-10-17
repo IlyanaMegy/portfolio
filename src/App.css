@@ -114,9 +114,6 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.section {
-  padding: 6rem 0 2rem;
-}
 
 .section__title {
   font-size: var(--h1-font-size);
@@ -150,7 +147,6 @@ img {
 .button {
   display: inline-block;
   background-color: #b6a4d7;
-  /* background-color: var(--title-color); */
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 0.5rem;
@@ -160,7 +156,6 @@ img {
 
 .button:hover {
   background-color: #a08bc7;
-  /* background-color: var(--title-color-dark); */
 }
 
 .button__icon {

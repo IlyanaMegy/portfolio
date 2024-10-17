@@ -15,13 +15,11 @@
   height: 45px;
 }
 
-.home__school-link
-{
+.home__school-link {
   color: #957699;
 }
 
-.home__school-link:hover
-{
+.home__school-link:hover {
   color: #b78aba;
 }
 
@@ -34,6 +32,11 @@
 .home__social-icon {
   font-size: 1.25rem;
 }
+:hover{
+  transition: .4s ease;
+  fill : #606591b9;
+}
+
 
 .home__img {
   background: url(../../assets/user-circle.svg);
@@ -41,7 +44,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 5px rgba(161, 138, 158, 0.1);
+  box-shadow: inset 0 0 0 5px rgba(190, 133, 190, 0.1);
   order: 1;
   justify-self: center;
   width: 200px;
@@ -123,6 +126,22 @@
   color: #717a97;
 }
 
+.spin_icon {
+  transition: transform 2s ease-in;
+}
+
+.spin_icon > g > rect {
+  transition: fill 1s cubic-bezier(0.29, 1.01, 1, -0.68);
+}
+
+.spin_icon:hover {
+  transform: rotate(1000deg);
+}
+
+.spin_icon:hover > g > rect {
+  fill: red;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* Large devices */
 @media screen and (max-width: 992px) {
@@ -169,7 +188,7 @@
   }
 
   .spin_icon {
-	width: 55px;
+    width: 55px;
     height: 45px;
   }
 
@@ -190,7 +209,4 @@
 
 /* Small devices */
 @media screen and (max-width: 350px) {
-	.home__img {
-
-	}
 }
